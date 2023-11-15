@@ -1,0 +1,49 @@
+/*
+Theme Name: mota
+Theme URI: http://motaphoto.local/
+Author: Bidois Nicolas
+Author URI: .
+Description: Thème pour le cours "Perfectionnez-vous sur WordPress"
+Version: 1.0
+Tags: openclassrooms, mota, 
+Text Domain: mota
+*/
+
+/* Ajouter ces styles pour aligner les liens de navigation à droite */
+.navigation {
+    text-align: right;
+}
+
+.navigation a {
+    display: inline-block;
+    margin-right: 40px;
+    text-decoration: none; 
+    color: black;
+}
+
+/* Ajoutez ces styles pour aligner l'image à gauche */
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 6%;
+}
+
+.logo {
+    margin-left: 40%;
+    margin-top: 11%
+}
+
+
+/*footer*/
+.mentions {
+    text-align: center;
+    border-top: 2px solid black;
+    padding-top: 1%;
+}
+
+.mentions a {
+    text-decoration: none;
+    color: black;
+    padding-right: 5%;
+}
