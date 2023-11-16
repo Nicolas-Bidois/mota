@@ -1,8 +1,6 @@
 <footer id="footer">
             <div class="mentions">
-            <a href="<?php echo home_url('/mentions-legales'); ?>">MENTIONS LÉGALES</a>
-            <a href="<?php echo home_url('/vie-privée'); ?>">VIE PRIVÉE</a>
-            <a href="<?php echo home_url('/TOUS-DROITS-RÉSERVÉS'); ?>">TOUS DROITS RÉSERVÉS</a>
+            <?php wp_nav_menu(array('theme_location' => 'menu-footer','menu_id'=> 'menu-footer')); ?>
             </div>
         </footer>
 </body>
