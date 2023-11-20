@@ -106,7 +106,10 @@ ul {
     height: 50px;
     border-radius: 2px;
     margin-bottom: 23px;
-}    
+}
+.pos {
+    margin-left: 10%;
+}  
 .form-text {
     right: 21%;
     position: relative;
@@ -189,3 +192,129 @@ ul {
         opacity: 0;
     }
 }
+
+.photo-info-container {
+    display: flex;
+    height: 39em;
+}
+.info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-bottom: 2px solid black;
+    padding-bottom: 25px;
+    margin-bottom: 6%;
+    margin-left: 2%;
+    width: 48%;
+}
+/* Ajoutez ces styles dans votre fichier CSS pour styliser le bloc de photo */
+.photo-block {
+    width: 50%;
+    height: 100vh;
+    left: 0.5%;
+    position: relative;
+}
+
+.full-photo {
+    width: 100%;
+    object-fit: scale-down;
+    top: 4%;
+    position: absolute;
+}
+
+.fullscreen-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; /* Caché par défaut */
+}
+
+.photo-block:hover .fullscreen-icon {
+    display: block; /* Afficher l'icône au survol du bloc de photo */
+}
+
+.bloc {
+    height: 118px;
+    display: flex;
+    margin-top: -2em;
+}
+
+.text-1 {
+    padding: 0px 22px;
+}
+.entry-title {
+    font-size: 66px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 58px;
+}
+
+
+/* classes pour le format portrait */
+.portrait-full-photo {
+    width: 100%;
+    object-fit: scale-down;
+    margin-bottom: 7%;
+}
+
+.portrait-photo-block {
+    left: 0.5%;
+    position: relative;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.photo-info-container-portrait {
+    display: flex;
+}
+
+
+
+/**/
+.fleches {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40em;
+    z-index: 1;
+    margin-top: 2em;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    margin-right: 15px
+}
+
+.thumbnail {
+    display: flex;
+    width: 81px;
+    Height: 71px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 72em;
+    right: 5em;
+    object-fit: cover;
+}
+.paysage-thumbnail{
+    display: flex;
+    width: 81px;
+    Height: 71px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 38em;
+    right: 5em;
+    object-fit: cover;
+}
+
+.arrow {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1;
+}
+
+
+
+
