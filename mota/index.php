@@ -1,4 +1,6 @@
 <?php get_header(); ?>
 <a href=""></a>
-<h1>Hello World</h1>
+<div>
+<h1 class=" hero-container event">PHOTOGRAPHE EVENT</h1>
+</div>
 <?php get_footer(); ?>

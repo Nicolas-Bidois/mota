@@ -125,4 +125,8 @@
 else:
     echo 'Aucun article trouvé.';
 endif; ?>
+<div class="bar-photos-apparentées"></div>
+    <div class="photos-apparentées">
+        <?php get_template_part('templates_part/photo_block'); ?>
+    </div>
 <?php get_footer(); ?>

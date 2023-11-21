@@ -127,4 +127,8 @@ function get_photo_block_classes() {
 echo '<script>var reference_data = ' . get_reference_data() . ';</script>';
 ?>
 
+<?php
+
+
+
 

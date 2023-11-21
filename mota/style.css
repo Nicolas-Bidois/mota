@@ -316,5 +316,26 @@ ul {
 }
 
 
+/*hero header*/
+.hero-container {
+    width: 100%;
+    height: 962px;
+    background-image: url("http://motaphoto.local/wp-content/uploads/2023/11/nathalie-11-scaled.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6em;
+    font-style: italic;
+    color: white;
+}
+
+
+
 
 
